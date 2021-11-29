@@ -1,5 +1,37 @@
-body {
+header {
+text-align: center;
+}
+
+img {
+margin: auto;
+display: block;
+}
+
+#featured-property p {
+  margin-inline: 26em;
+text-align: center;
+width: 800px;
+font-size: 16px;
+}
+
+nav a {
+background: lightgreen;
+}
+
+figcaption {
+text-align: center;
+}
+
+  body {
   width: 100%;
   height: 100%;
   margin: 0;
+}
+
+#details div {
+float: left;
+vertical-align: bottom;
+background: red;
+text-align: center;
+width: 25%;  
 }
